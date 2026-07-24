@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# Roda lint/format apenas nos arquivos staged neste commit
+npx pnpm lint-staged
+
+# Typecheck completo do projeto
+npx pnpm typecheck
